@@ -10,7 +10,7 @@ def find_max_value(array)
   new_array = []
   new_array = array.uniq
   new_array.sort
-  return new_array.first
+  return new_array[0]
 end
 
 def find_min_value(array)
