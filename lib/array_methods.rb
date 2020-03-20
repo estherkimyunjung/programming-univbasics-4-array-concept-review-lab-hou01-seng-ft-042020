@@ -7,15 +7,12 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  # new_array = []
-  # new_array = array.uniq
-  new_array.sort
-  return new_array[0]
+  array.sort
+  return array[0]
 end
 
 def find_min_value(array)
   # Add your solution here
-  
-  new_array.sort
-  return new_array.last
+  array.sort
+  return array.last
 end
