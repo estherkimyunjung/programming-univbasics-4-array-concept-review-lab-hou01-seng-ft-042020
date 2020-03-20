@@ -8,11 +8,11 @@ end
 def find_max_value(array)
   # Add your solution here
   array.sort
-  return array[0]
+  return array.last
 end
 
 def find_min_value(array)
   # Add your solution here
   array.sort
-  return array.last
+  return array.first
 end
