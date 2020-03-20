@@ -18,5 +18,5 @@ def find_min_value(array)
   new_array = []
   new_array = array.uniq
   new_array.sort
-  return new_array[0]
+  return new_array.last
 end
